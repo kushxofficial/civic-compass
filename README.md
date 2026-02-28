@@ -1,73 +1,160 @@
-# Welcome to your Lovable project
+JanSaarthi – AI-Powered Citizen Access & Process Navigator
 
-## Project info
+JanSaarthi is an AI-driven public-service assistant designed to help citizens discover eligible government schemes, navigate complex processes, prepare documents correctly, and avoid misinformation — all through a simple, easy-to-use interface.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Its mission: Make governance easier, clearer, and truly accessible for everyone.
 
-## How can I edit this code?
+🚨 Why JanSaarthi Exists
 
-There are several ways of editing your application.
+Accessing public services in India is difficult because:
 
-**Use Lovable**
+Information is scattered across multiple portals
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Eligibility rules are confusing
 
-Changes made via Lovable will be committed automatically to this repo.
+Documentation requirements are unclear
 
-**Use your preferred IDE**
+Processes vary by state and district
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Citizens rely on middlemen
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Low digital literacy creates barriers
 
-Follow these steps:
+JanSaarthi solves these problems by acting as a personal guide for every citizen.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+💡 What JanSaarthi Does
+### ✔ Personalized Scheme Eligibility
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The system evaluates user inputs and recommends schemes they are eligible for, along with:
 
-# Step 3: Install the necessary dependencies.
-npm i
+Benefits summary
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Required documents
 
-**Edit a file directly in GitHub**
+Application links
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Conditions & exceptions
 
-**Use GitHub Codespaces**
+✔ AI Process Navigator
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+For common public services (e.g., caste certificate, income certificate, ration card):
 
-## What technologies are used for this project?
+Step-by-step instructions
 
-This project is built with:
+Office to visit
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Fees (if applicable)
 
-## How can I deploy this project?
+Processing time
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Mistakes to avoid
 
-## Can I connect a custom domain to my Lovable project?
+Escalation and grievance routes
 
-Yes, you can!
+✔ Document Checklist Generator
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Users get:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Complete, accurate document lists
+
+Verification/format guidelines
+
+Consistency checks (name, dates, spelling)
+
+(Advanced version: upload-based validation.)
+
+✔ Scam Prevention & Safety
+
+JanSaarthi:
+
+Flags suspicious/unofficial links
+
+Warns against middlemen
+
+Promotes official government channels
+
+🧭 User Flow
+
+User fills a short profile form
+
+JanSaarthi generates personalized scheme list
+
+User selects a service
+
+AI provides a clear process walkthrough
+
+User prepares documents confidently
+
+User completes the service independently
+
+🛠 Technology Overview
+Frontend
+
+Mobile-first UI for accessibility
+
+Clean, guided layout for low-literacy users
+
+Backend
+
+Structured database of government schemes & services
+
+Region-wise rules (expandable)
+
+AI Layer
+
+LLM-based reasoning engine
+
+Retrieval-Augmented Generation (RAG)
+
+Rule-based eligibility engine for accuracy
+
+Data
+
+Reviewed eligibility criteria
+
+Verified process flows
+
+State-level variations
+
+Focus: Accuracy, transparency, and easy usability.
+
+📈 Who JanSaarthi Helps
+
+Citizens unfamiliar with government processes
+
+Rural and low-literacy populations
+
+People trying to avoid middlemen
+
+Anyone seeking faster, clearer public-service access
+
+🌱 Impact Goals
+
+Reduce dependence on unofficial agents
+
+Improve access to government schemes
+
+Save time, effort, and money
+
+Increase trust and transparency
+
+Support digital inclusion
+
+🔮 Future Enhancements
+
+WhatsApp & voice-based assistant
+
+Multilingual support
+
+District-level dynamic rule updates
+
+DigiLocker integration
+
+Smart appointment booking
+
+Real-time API integration with departments
+
+🎯 Vision
+
+A future where every citizen has a digital guide to navigate governance —
+clear, trustworthy, and accessible from anywhere.
